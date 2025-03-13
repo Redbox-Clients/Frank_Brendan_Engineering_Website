@@ -1,0 +1,61 @@
+html, body {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+section {
+    height: 100vh;  /* Make each section 100% of the viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+/* Styling for each section's title */
+.section-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+/* Hero Section (Full screen) */
+.hero {
+    background-color: #282828;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+/* Navigation Styles */
+.navbar {
+    z-index: 100;
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f8f9fa !important;
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #282828;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
