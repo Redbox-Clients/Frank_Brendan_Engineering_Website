@@ -35,3 +35,23 @@ html {
   .image-box:hover img {
     transform: scale(1.05); /* Nice zoom effect on hover */
   }
+
+  .cover-container {
+    position: relative; /* Needed for absolute positioning of the overlay */
+    overflow: hidden; /* Clips the overlay if it somehow goes outside */
+}
+
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Adjust the last value (alpha) for darkness */
+    z-index: 1; /* Ensures the overlay is on top of the background image */
+}
+
+.content-on-cover {
+    position: relative; /* To ensure content stays on top of the overlay */
+    z-index: 2; /* Higher than the overlay */
+}
