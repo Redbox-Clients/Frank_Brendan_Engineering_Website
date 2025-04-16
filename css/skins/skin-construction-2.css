@@ -27,7 +27,7 @@
     --primary-rgba-90: rgba(255, 255, 255, 0.9);
 
     /* Secondary Colors - A Red that complements the Navy */
-    --secondary: #a20000; /* A slightly brighter, cleaner red */
+    --secondary: #ed0000; /* A slightly brighter, cleaner red */
     --secondary-100: #a21b1b;
     --secondary-200: #8b1717;
     --secondary-300: #741212;
